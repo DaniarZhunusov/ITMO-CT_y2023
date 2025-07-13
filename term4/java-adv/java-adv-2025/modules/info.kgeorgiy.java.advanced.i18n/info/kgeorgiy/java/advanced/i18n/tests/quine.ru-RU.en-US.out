@@ -1,0 +1,36 @@
+Input file "quine.ru-RU.in"
+Aggregate stats
+	Number of sentences: 30.
+	Number of words: 117.
+	Number of numbers: 35.
+	Number of currencies: 3.
+	Number of dates: 3.
+Sentence stats
+	Number of sentences: 30 (30 distinct).
+	Minimal sentence: "Анализируемый файл "quine.ru-RU.in".".
+	Maximal sentence: "Число чисел: 35.".
+	Minimal sentence length: 13 ("Число дат: 3.").
+	Maximal sentence length: 109 ("Максимальная длина предложения: 109 ("GK: если сюда поставить реальное предложение, то процесс не сойдётся").").
+	Average sentence length: 37.7.
+Word stats
+	Number of words: 117 (48 distinct).
+	Minimal word: "GK".
+	Maximal word: "языках".
+	Minimal word length: 1 ("с").
+	Maximal word length: 18 ("TextStatisticsTest").
+	Average word length: 6.752.
+Number stats
+	Number of numbers: 35 (21 distinct).
+	Minimal number: -12345.67.
+	Maximal number: 12345.67.
+	Average number: 221.381.
+Currency stats
+	Number of currencies: 3 (3 distinct).
+	Minimal currency: $100.00.
+	Maximal currency: $345.67.
+	Average currency: $222.83.
+Date stats
+	Number of dates: 3 (3 distinct).
+	Minimal date: May 23, 2025.
+	Maximal date: May 30, 2025.
+	Average date: May 26, 2025.

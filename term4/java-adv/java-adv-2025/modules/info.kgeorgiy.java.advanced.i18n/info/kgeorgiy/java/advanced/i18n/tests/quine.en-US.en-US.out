@@ -1,0 +1,36 @@
+Input file "quine.en-US.in"
+Aggregate stats
+	Number of sentences: 29.
+	Number of words: 121.
+	Number of numbers: 37.
+	Number of currencies: 4.
+	Number of dates: 3.
+Sentence stats
+	Number of sentences: 29 (29 distinct).
+	Minimal sentence: "Average currency: $222.83.".
+	Maximal sentence: "Word stats Number of words: 121 (37 distinct).".
+	Minimal sentence length: 19 ("Number of dates: 3.").
+	Maximal sentence length: 80 ("Maximal sentence length: 80 ("GK: this process does not converge on real data").").
+	Average sentence length: 36.552.
+Word stats
+	Number of words: 121 (37 distinct).
+	Minimal word: "Aggregate".
+	Maximal word: "words".
+	Minimal word length: 2 ("of").
+	Maximal word length: 18 ("TextStatisticsTest").
+	Average word length: 5.835.
+Number stats
+	Number of numbers: 37 (22 distinct).
+	Minimal number: -12345.67.
+	Maximal number: 34828.0.
+	Average number: 842.557.
+Currency stats
+	Number of currencies: 4 (3 distinct).
+	Minimal currency: $100.00.
+	Maximal currency: $345.67.
+	Average currency: $222.83.
+Date stats
+	Number of dates: 3 (3 distinct).
+	Minimal date: May 23, 2025.
+	Maximal date: May 30, 2025.
+	Average date: May 26, 2025.
