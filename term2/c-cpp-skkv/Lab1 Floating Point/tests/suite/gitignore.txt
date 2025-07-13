@@ -1,0 +1,9 @@
+# Python Tester
+
+## Caches (files)
+*.pyc
+*.py[cod]
+*$py.class
+
+## Caches (directories)
+__pycache__/
