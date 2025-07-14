@@ -1,0 +1,307 @@
+:root {
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
+    color: rgb(34, 34, 34);
+
+    --border-color: rgb(185, 185, 185);
+    --border: 1px solid var(--border-color);
+    --border-radius: 6px;
+    --caption-color: #3B5998;
+    --border-caption-datatable: #e1e1e1;
+    --positive-score-color: #008000;
+    --article-border: #b9b9b9;
+    --article-information: #888888;
+
+    --userRed:red;
+    --userGreen:green;
+    --userBlue:blue;
+}
+
+html {
+    min-width: 800px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+header {
+    position: relative;
+}
+
+header .languages {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+header .enter-or-register-box {
+    position: absolute;
+    top: calc(24px + 0.5rem);
+    right: 0;
+}
+
+header nav {
+    border: var(--border);
+    border-radius: var(--border-radius);
+    margin: 0.5rem 0 2rem 0;
+}
+
+header nav ul {
+    padding: 0;
+    margin: 1rem;
+}
+
+header nav ul li {
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+    font-family: Arial, sans-serif;
+    margin-right: 1rem;
+}
+
+.middle {
+    display: flow-root;
+}
+
+aside {
+    float: right;
+    width: 20rem;
+}
+
+aside section {
+    border: var(--border);
+    border-top-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
+    margin-bottom: 1rem;
+}
+
+aside section .header {
+    border-bottom: var(--border);
+    padding: 0.25rem;
+    font-weight: bold;
+    color: var(--caption-color);
+}
+
+aside section .header:before {
+    content: "→ ";
+    font-size: 1.1rem;
+}
+
+aside section .body {
+    white-space: pre-line;
+    padding: 0.25rem;
+}
+
+aside section .footer {
+    border-top: var(--border);
+    padding: 0.25rem;
+    text-align: right;
+    font-size: 0.8rem;
+}
+
+aside section .footer a:after {
+    content: " →";
+}
+
+main {
+    margin-right: 21rem;
+}
+
+footer {
+    margin-top: 3rem;
+    padding-top: 1rem;
+    border-top: var(--border);
+    text-align: center;
+}
+
+.userbox {
+    border: var(--border);
+    border-radius: 10px;
+    padding: 0.5rem;
+    display: flow-root;
+}
+
+.userbox a {
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+.userbox .userimg {
+    float: right;
+}
+
+.usernav,
+.usernav a {
+    font-size: 2rem;
+}
+
+.usernav a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: #5581d1;
+}
+
+header nav ul li .underlinedlink {
+    border-bottom: 3px solid var(--caption-color);
+}
+
+main article {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+}
+
+main article .title {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: var(--caption-color);
+}
+
+main article .information {
+    padding-top: 0.2rem;
+    color: var(--article-information);
+}
+
+main article .body {
+    white-space: pre-line;
+    border-left: 0.25rem solid var(--article-border);
+    padding-left: 0.75rem;
+}
+
+main article .attachment{
+    padding-left: 0;
+}
+
+main article .attachment li {
+    font-size: 0.85rem;
+    color: var(--article-information);
+    list-style: none;
+    padding-left: 1.25rem;
+    background-image: url(../img/paperclip-16x16.png);
+    background-repeat: no-repeat;
+    min-height: 1rem;
+}
+
+main article .footer {
+    display: flow-root;
+    border: 1px solid var(--article-border);
+    border-radius: var(--border-radius);
+}
+
+main article .footer .left{
+    float: left;
+    margin: 0.25rem;
+}
+
+main article .footer .right{
+    float: right;
+    margin: 0.25rem;
+}
+
+main article .footer .left img{
+    vertical-align: middle;
+}
+
+main article .footer .left .positive-score {
+    color: var(--positive-score-color);
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+main article .footer .right img{
+    position: relative;
+}
+
+main article .footer .right {
+    position: relative;
+    top: 0.1rem;
+}
+
+main article .footer .right a{
+    vertical-align: middle;
+    margin-bottom: 0.5rem;
+}
+
+main article .footer .left,
+main article .footer .right
+{
+    vertical-align: middle;
+}
+
+main .datatable table{
+    border-top-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
+}
+
+main .datatable .caption{
+    background: var(--border-caption-datatable);
+    padding-left: 0.5rem;
+    padding-top: 0.25rem;
+    height: 1.2rem;
+    border-top-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
+}
+
+main .datatable table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.8rem;
+}
+
+main .datatable table thead tr th,
+main .datatable table tbody tr td
+{
+    text-align: center;
+    border: 1px solid var(--border-caption-datatable);
+    padding: 0.25rem 0.25rem;
+}
+
+main .datatable table tbody tr:nth-child(2n + 1) {
+    background: #f8f8f8;
+}
+
+.userimg {
+    width: 128px;
+    height: 128px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+.userLink {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+.userLinkRed {
+    color: var(--userRed)
+}
+
+.userLinkGreen {
+    color: var(--userGreen)
+}
+
+.userLinkBlue {
+    color: var(--userBlue)
+}
+
+.middle main .errors {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.middle main .description {
+    margin-top: 20px;
+}

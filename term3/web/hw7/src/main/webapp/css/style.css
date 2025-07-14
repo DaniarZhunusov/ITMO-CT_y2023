@@ -1,0 +1,228 @@
+:root {
+    --border-color: rgb(185, 185, 185);
+    --border-radius: 6px;
+    --black-color: #333;
+    --caption-color: #3B5998;
+    --error-color: red;
+    --datatable-color: #E1E1E1;
+    --datatable-dark-cell-color: #f8f8f8;
+    --message-border-color: #1E88E5;
+    --message-background-color: #E3F2FD;
+    --border-width: 1px;
+    color: var(--black-color);
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+}
+
+html {
+    padding: 1rem;
+    min-width: 600px;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+    :root {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 800px) {
+    :root {
+        font-size: 12px;
+    }
+}
+
+header {
+    position: relative;
+}
+
+header .languages {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+header .enter-or-register-box {
+    position: absolute;
+    top: 32px;
+    right: 0;
+}
+
+header nav {
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    padding: 0.75rem 0.25rem;
+    margin-top: 1rem;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 1rem;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: var(--black-color);
+    font-family: "Arial Narrow", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.middle {
+    margin-top: 1rem;
+    overflow: auto;
+}
+
+aside {
+    float: right;
+    width: 20rem;
+}
+
+main {
+    margin-right: 21rem;
+}
+
+footer {
+    margin-top: 2rem;
+    border-top: 1px solid var(--border-color);
+    padding-top: 0.5rem;
+    text-align: center;
+}
+
+aside section {
+    border: 1px solid var(--border-color);
+    border-top-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
+}
+
+aside section .header {
+    border-bottom: 1px solid var(--border-color);
+    padding: 0.25rem;
+    font-weight: bold;
+    color: var(--caption-color);
+}
+
+aside section .header:before {
+    content: "→";
+}
+
+aside section .body {
+    padding: 1rem;
+}
+
+aside section .footer {
+    border-top: 1px solid var(--border-color);
+    overflow: auto;
+    padding: 0.25rem;
+}
+
+aside section .footer a {
+    float: right;
+    font-size: 0.75rem;
+}
+
+aside section .footer a:after {
+    content: " →";
+}
+
+.message {
+    margin: 1rem 0;
+    padding: 0.5rem;
+    border-radius: var(--border-radius);
+    border: 1px solid var(--message-border-color);
+    background-color: var(--message-background-color);
+    text-align: center;
+}
+
+
+
+main article {
+    margin-bottom: 1rem;
+}
+
+main article .title {
+    color: var(--caption-color);
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin-bottom: 0.15rem;
+}
+
+main article .information {
+    color: gray;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+main article .body {
+    border-left: 0.25rem solid var(--border-color);
+    padding-left: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+
+main article .attachment {
+    padding-left: 0;
+    font-size: 0.8rem;
+    color: gray;
+}
+
+
+main article ul {
+    list-style-type: none;
+    list-style-position: outside;
+}
+
+main article .attachment li {
+    padding-left: 1.3rem;
+    margin-bottom: 0.2rem;
+    text-align: left;
+    background: no-repeat url("../img/paperclip-16x16.png") left;
+    background-size: 1rem;
+}
+
+
+main article .footer {
+    border: var(--border-width) solid var(--border-color);
+    border-radius: var(--border-radius);
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    height: 2.4rem;
+}
+
+main article .footer .left {
+    padding-top: 0.2rem;
+    float: left;
+
+}
+
+main article .footer .left .positive-score {
+    color: green;
+    font-weight: bold;
+    font-size: 1.2rem;
+    position: relative;
+}
+
+main article .footer .left img {
+    width: 1.5rem;
+    position: relative;
+    top: 0.3rem;
+}
+
+main article .footer .right {
+    float: right;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+}
+
+main article .footer .right img {
+    position: relative;
+    width: 1.1rem;
+    top: 0.2rem;
+}
