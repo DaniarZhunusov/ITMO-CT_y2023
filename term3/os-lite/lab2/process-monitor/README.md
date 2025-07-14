@@ -13,3 +13,5 @@
 | 5 | [`5_avg_run_child_or_parent.bash`](5_avg_run_child_or_parent.bash) |
 | 6 | [`6_the_fattest_one.bash`](6_the_fattest_one.bash)                 |
 | 7 | [`7_io.bash`](7_io.bash)                                           |
+
+Модификация: в первых 10-ти строках из top найти пользователя, который суммарно по всем его процессам "съел" больше памяти
