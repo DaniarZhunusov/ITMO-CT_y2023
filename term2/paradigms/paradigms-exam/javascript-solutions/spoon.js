@@ -1,3 +1,4 @@
+// :NOTE: * как сделать ограничение только на память?
 function runProgram(program, input, maxSteps = 10000, maxMemory = 30000) {
     const commands = {
         '1': '+',
@@ -41,6 +42,7 @@ function runProgram(program, input, maxSteps = 10000, maxMemory = 30000) {
         switch (bfProgram[pc]) {
             case '>':
                 pointer++;
+                // :NOTE: * копипаста
                 if (pointer >= maxMemory) {
                     console.error('Error: Memory pointer out of bounds');
                     return;
@@ -54,6 +56,7 @@ function runProgram(program, input, maxSteps = 10000, maxMemory = 30000) {
                 }
                 break;
             case '+':
+                // :NOTE: * модуль 256
                 memory[pointer]++;
                 break;
             case '-':
@@ -109,4 +112,5 @@ function runProgram(program, input, maxSteps = 10000, maxMemory = 30000) {
 // Пример использования
 const program = '';
 const input = '11111111110010001011111110101111111111010111010101101101101100000110101100101001010010101111111001010001010111001010010110010100110111111111111111110010100100010101110010100000000000000000000010100000000000000000000000000010100101001010010001010';
+
 runProgram(program, input); // Ожидаемый вывод: "Hello World!"
