@@ -1,4 +1,4 @@
-### [Билет 51.  Проталкивание отрицаний](spoon.js)
+### [Билет 51.  Интерпретатор Spoon (JavaScript)](spoon.js)
 
 Напишите интерпретатор языка программирования Spoon (https://ru.wikipedia.org/wiki/Spoon)
 
