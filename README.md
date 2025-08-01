@@ -16,7 +16,7 @@
 ### [C/C++](term2/c-cpp-skkv)
 * [HW 1 Factorial](term2/c-cpp-skkv/HW1%20Factorial)
 * [HW 2 Quaternion](term2/c-cpp-skkv/HW2%20Quaternion)
-* [Lab 1 Floating point IEEE 754](term2/c-cpp-skkv/Lab1%20Floating point)
+* [Lab 1 Floating point IEEE 754](term2/c-cpp-skkv/Lab1%20Floating%20point)
 * [Lab 2 Libraries](term2/c-cpp-skkv/Lab2%20Libraries)
 * [Lab 3 STL-compatible container](term2/c-cpp-skkv/Lab3%20Containers)
 * [Lab 4 QT Minesweeper](term2/c-cpp-skkv/Lab4%20Minesweeper)
