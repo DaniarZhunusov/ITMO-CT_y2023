@@ -24,3 +24,13 @@
 ### [Paradigms](term2/paradigms)
 * [Solutions](term2/paradigms/solutions)
 * [Tests](term2/paradigms)
+
+## 3 semester
+
+### [OS-lite](term3/os-lite)
+* [Lab 1](term3/os-lite/lab1)
+* [Lab 2](term3/os-lite/lab2)
+* [Lab 3](term3/os-lite/lab3)
+* [Lab 4](term3/os-lite/lab4)
+* [Lab 5](term3/os-lite/lab5)
+
