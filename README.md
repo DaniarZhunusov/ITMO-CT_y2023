@@ -42,3 +42,8 @@
 * [Solutions](term4/java-adv/java-advanced/java-solutions/info/kgeorgiy/ja/zhunusov)
 * [Tests](term4/java-adv/java-advanced-2025)
 
+### [Optimization methods](term4/met-opt)
+* [Lab 1 Zero-first order optimization methods](term4/met-opt/lab1)
+* [Lab 2 Advanced optimization methods](term4/met-opt/lab2)
+* [Lab 3 Stochastic gradient descent](term4/met-opt/lab3)
+* [Lab 4 Stochastic optimization methods](term4/met-opt/lab4)
