@@ -34,8 +34,6 @@
 * [Lab 4](term3/os-lite/lab4)
 * [Lab 5](term3/os-lite/lab5)
 
-### [Web programming](term3/web)
-
 ## 4 semester
 
 ### [Java advanced](term4/java-adv)
