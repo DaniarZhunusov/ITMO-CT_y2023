@@ -1,0 +1,63 @@
+start: s
+accept: ac
+reject: rj
+blank: _
+
+s 0 -> s 0 <
+s 1 -> s 1 <
+s 2 -> s 2 <
+s _ -> convert | <
+
+convert _ -> right 0 >
+
+right | -> dec | >
+right 1 -> right 1 >
+right 0 -> right 0 >
+
+dec 1 -> dec 1 >
+dec 0 -> dec 0 >
+dec 2 -> dec 2 >
+dec | -> dec | >
+dec _ -> dec1 _ <
+
+dec1 2 -> check 1 >
+dec1 1 -> check 0 >
+dec1 | -> del | >
+dec1 0 -> dec1 0 <
+
+check 0 -> two 0 ^
+check 1 -> two 0 ^
+check 2 -> two 2 ^
+check _ -> left _ <
+
+two _ -> left _ <
+two 0 -> two 2 >
+
+left 0 -> left 0 <
+left 1 -> left 1 <
+left 2 -> left 2 <
+left | -> print1 | <
+left _ -> inc _ >
+
+inc 0 -> inc 1 >
+inc | -> dec | >
+inc 1 -> next 0 <
+
+next _ -> dec 1 >
+
+print1 1 -> print1 0 <
+print1 _ -> right 1 >
+print1 0 -> right 1 >
+
+del 0 -> del 0 >
+del _ -> fin _ <
+
+fin 0 -> fin _ <
+fin | -> finish _ <
+
+finish 0 -> finish 0 <
+finish 1 -> finish 1 <
+finish _ -> end _ >
+
+end 1 -> ac 1 ^
+end 0 -> ac 0 ^

@@ -1,0 +1,34 @@
+start: s
+accept: ac
+reject: rj
+blank: _
+
+s 0 -> begin 0 >
+s 1 -> begin 1 >
+
+begin 0 -> begin 0 >
+begin 1 -> begin 1 >
+begin _ -> back | <
+
+back 0 -> write0 A >
+back 1 -> write1 B >
+back A -> back 0 <
+back B -> back 1 <
+back | -> back | <
+back _ -> end _ ^
+
+write0 1 -> write0 B >
+write0 0 -> write0 A >
+write0 _ -> back 0 <
+write0 | -> write0 | >
+
+write1 0 -> write1 A >
+write1 1 -> write1 B >
+write1 _ -> back 1 <
+write1 | -> write1 | >
+
+end _ -> end _ >
+end 1 -> end _ >
+end 0 -> end _ >
+end * -> end _ >
+end | -> ac _ >

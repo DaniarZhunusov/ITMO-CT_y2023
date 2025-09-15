@@ -1,0 +1,25 @@
+start: s
+accept: ac
+reject: rj
+blank: _
+
+s _ -> ac _ ^
+s ( -> find ( >
+s ) -> rj _ ^
+
+find ( -> find ( >
+find ) -> back * <
+find * -> find * >
+find _ -> check _ <
+
+back ( -> find * >
+back * -> back * <
+back _ -> rj _ ^
+
+check ( -> rj _ ^
+check ) -> rj _ ^
+check * -> check * <
+check _ -> end _ >
+
+end * -> end _ >
+end _ -> ac _ ^
