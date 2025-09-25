@@ -38,6 +38,10 @@ My study projects during my studies at ITMO University.
 ### [Algorithms and data structures](term3/aads)
 * [Lab](term3/aads)
 
+### [Discrete math](term3/dm)
+* [Lab 1 Graph](term3/dm/lab1)
+* [Lab 2 Matroids](term3/dm/lab2)
+
 ### [OS-lite](term3/os-lite)
 * [Lab 1](term3/os-lite/lab1)
 * [Lab 2](term3/os-lite/lab2)
@@ -50,10 +54,11 @@ My study projects during my studies at ITMO University.
 ### [Algorithms and data structures](term4/aads)
 * [Lab](term4/aads)
 
+### [Discrete math](term4/dm)
+* [Lab 1 Generating functions](term4/dm/lab1)
+* [Lab 2 Turing machine](term4/dm/lab2)
+
 ### [Java advanced](term4/java-adv)
 * [Solutions](term4/java-adv/java-advanced/java-solutions/info/kgeorgiy/ja/zhunusov)
 * [Tests](term4/java-adv/java-advanced-2025)
 
-### [Discrete math](term4/dm)
-* [Lab 1 Generating functions](term4/dm/lab1)
-* [Lab 2 Turing machine](term4/dm/lab2)
