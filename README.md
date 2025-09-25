@@ -1,5 +1,7 @@
 # ITMO-CT_y2023 
 
+My study projects during my studies at ITMO University.
+
 ## 1 semester
 
 ### [Algorithms and data structures](term1/aads)
