@@ -18,6 +18,9 @@ My study projects during my studies at ITMO University.
 
 ## 2 semester
 
+### [Algorithms and data structures](term2/aads)
+* [Lab](term2/aads)
+
 ### [C/C++](term2/c-cpp-skkv)
 * [HW 1 Factorial](term2/c-cpp-skkv/HW1%20Factorial)
 * [HW 2 Quaternion](term2/c-cpp-skkv/HW2%20Quaternion)
