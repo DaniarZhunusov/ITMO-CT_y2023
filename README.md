@@ -2,12 +2,12 @@
 
 ## 1 semester
 
+### [Algorithms and data structures](term1/aads)
+* [Lab](term1/aads)
+
 ### [Prog intro](term1/prog-intro)
 * [Solutions](term1/prog-intro/solutions)
 * [Tests](term1/prog-intro/java)
-
-### [Algorithms and data structures](term1/aads)
-* [Lab](term1/aads)
 
 ### [Comp arch](term1/comp-arch)
 * [Lab 1](term1/comp-arch/HW1)
@@ -29,6 +29,9 @@
 * [Tests](term2/paradigms)
 
 ## 3 semester
+
+### [Algorithms and data structures](term3/aads)
+* [Lab](term3/aads)
 
 ### [OS-lite](term3/os-lite)
 * [Lab 1](term3/os-lite/lab1)
