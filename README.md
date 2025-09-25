@@ -42,6 +42,9 @@
 
 ## 4 semester
 
+### [Algorithms and data structures](term4/aads)
+* [Lab](term4/aads)
+
 ### [Java advanced](term4/java-adv)
 * [Solutions](term4/java-adv/java-advanced/java-solutions/info/kgeorgiy/ja/zhunusov)
 * [Tests](term4/java-adv/java-advanced-2025)
