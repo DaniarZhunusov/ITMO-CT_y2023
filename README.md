@@ -3,10 +3,10 @@
 This repository contains my laboratory works, assignments, and projects from ITMO University.
 
 Table of Contents
-* [1st Semester](term1)
-* [2nd Semester](term2)
-* [3rd Semester](term3)
-* [4th Semester](term4)
+* [1st semester](term1)
+* [2nd semester](term2)
+* [3rd semester](term3)
+* [4th semester](term4)
 
 ## 1 semester
 
