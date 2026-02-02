@@ -1,6 +1,12 @@
 # ITMO-CT_y2023 
 
-My study projects during my studies at ITMO University.
+This repository contains my laboratory works, assignments, and projects from ITMO University.
+
+Table of Contents
+* [1st Semester](term1)
+* [2nd Semester](term2)
+* [3rd Semester](term3)
+* [4th Semester](term4)
 
 ## 1 semester
 
